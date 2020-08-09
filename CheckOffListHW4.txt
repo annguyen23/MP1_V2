@@ -1,0 +1,14 @@
+Homework Checkoff List CSC110  
+Name:	  An Nguyen    		
+Section:  3
+Homework: 4
+
+List the requirements of the program						
+ > Create a graph windown
+ > Draw 5 boxes and label them "dice 1-5"
+ > Create a message to ask user to click in the box and in order (the message will disappear when user click right and show when user click wrong)
+ > Draw dice with dots
+ > Create a program for random dice
+ > Print dice out each time user clicking in the right box
+ > Calculate total dice value and display it
+ > Create an exit button (when user click into the box, close the window)

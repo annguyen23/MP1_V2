@@ -8,13 +8,6 @@
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
   <body>
-      <div>
-          <p>Up: move to the edge</p>
-          <p>Down: Move to the center</p>
-          <p>C: Change colors</p>
-          <p>R: Reset to initial states</p>
-          <p>Q: Quit game</p>
-      </div>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=600></canvas>
       <div id="unity-loading-bar">
@@ -34,11 +27,11 @@
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Web.loader.js";
+      var loaderUrl = buildUrl + "/WebV2.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Web.data.br",
-        frameworkUrl: buildUrl + "/Web.framework.js.br",
-        codeUrl: buildUrl + "/Web.wasm.br",
+        dataUrl: buildUrl + "/WebV2.data",
+        frameworkUrl: buildUrl + "/WebV2.framework.js",
+        codeUrl: buildUrl + "/WebV2.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "MP1",

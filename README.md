@@ -1,1 +1,1 @@
-play the game at https://annguyen23.github.io/MP1/
+play the game at hhttps://annguyen23.github.io/MP1_V2/
